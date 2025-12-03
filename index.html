@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Temores - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+  <div class="header-left">
+    <div class="brand">
+      <span class="brand-name">Temores</span>
+    </div>
+    <nav class="site-nav">
+      <a href="index.html#work">Home</a>
+	  <a href="runway-home.html#work">Art School</a>
+    </nav>
+  </div>
+
+  <div class="header-right">
+    <a class="email-link" href="mailto:temoresbarratt@GMAIL.COM">TEMORESBARRATT@GMAIL.COM</a>
+  </div>
+</header>
+
+
+  <main>
+  <section id="work" class="section">
+    <div class="portfolio-grid">
+
+      <!-- Item 1 -->
+      <a href="project-asset.html" class="portfolio-link">
+        <figure class="portfolio-item"
+                data-title="Project One"
+                data-description="Short description of Project One.">
+          <img src="assets/asset/asset1.png"
+               alt="Project One" loading="lazy" />
+          <figcaption>
+            <span class="item-title">ONGOING</span>
+          </figcaption>
+        </figure>
+      </a>
+
+      <!-- Item 2 -->
+      <a href="project-campaign.html" class="portfolio-link">
+        <figure class="portfolio-item"
+                data-title="Project Two"
+                data-description="Short description of Project Two.">
+          <img src="assets/campaign/campaign1.png"
+               alt="Project Two" loading="lazy" />
+          <figcaption>
+            <span class="item-title">CAMPAIGN / PROJECT</span>
+          </figcaption>
+        </figure>
+      </a>
+
+      <!-- Item 3 -->
+      <a href="project-fashion.html" class="portfolio-link">
+        <figure class="portfolio-item">
+          <img src="assets/fashion/fashion1.png"
+               alt="Project Three" loading="lazy" />
+          <figcaption>
+            <span class="item-title">HOUSE OF VOYA</span>
+          </figcaption>
+        </figure>
+      </a>
+
+      <!-- Item 4 -->
+      <a href="project-print.html" class="portfolio-link">
+        <figure class="portfolio-item">
+          <img src="assets/print/print1.png"
+               alt="Project Four" loading="lazy" />
+          <figcaption>
+            <span class="item-title">TEXTURE</span>
+          </figcaption>
+        </figure>
+      </a>
+	  
+	  <p>
+	  </P>
+	  <p>
+	  </P>
+
+	  
+	  <!-- Item 5 -->
+      <a href="runway-home.html" class="portfolio-link">
+        <figure class="portfolio-item">
+          <img src="assets/runway/1-The-Rehearsal.png"
+               alt="Project Four" loading="lazy" />
+          <figcaption>
+            <span class="item-title">ART SCHOOL</span>
+          </figcaption>
+        </figure>
+      </a>
+
+    </div>
+  </section>
+</main>
+
+
+  <!-- Minimal modal/lightbox -->
+  <div class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop"></div>
+    <div class="lightbox-content" role="dialog" aria-modal="true">
+      <button class="lightbox-close" aria-label="Close">&times;</button>
+      <img class="lightbox-image" src="" alt="" />
+      <div class="lightbox-text">
+        <h3 class="lightbox-title"></h3>
+        <p class="lightbox-description"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
